@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Formulário de Contato</title>
+    <meta charset="UTF-8">
+    <style type="text/css">
+      .error { color: red; }
+      .success { color: green; }
+
+      body {
+            padding: 25px;
+            background-color: #c4aa36; 
+           }
+      h1 {
+          -webkit-text-stroke-width: 1px;
+          -webkit-text-stroke-color: black;
+          color: #e2d567;
+          font-family: verdana;
+         }
+      footer {
+              text-align: center
+              
+             }
+
+    </style>
+</head>
+<body>
+   <h1>Nosso Contato</h1>
+   <form id="contactForm" action="/submit-form" method="POST">
+
+    <form action="/submit_form" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+    
+    <div id="messageBox"></div>
+
+    <script> 
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+            var messageBox = document.getElementById('messageBox');
+            
+            if (!name || !email || !message) {
+                messageBox.innerHTML = '<p class="error">Todos os campos são obrigatórios.</p>';
+                return;
+            }
+            
+            var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+            if (!emailPattern.test(email)) {
+                messageBox.innerHTML = '<p class="error">Por favor, insira um email válido.</p>';
+                return;
+            }
+            
+            messageBox.innerHTML = '<p class="success">Mensagem enviada com sucesso!</p>';
+        });
+    </script>
+       <footer>
+    <p>Desenvolvido por Hudson Mata</p>
+  </footer>
+</body>
+</html>
