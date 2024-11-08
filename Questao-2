@@ -1,0 +1,75 @@
+<head>
+  <style type="text/css">
+    table {
+           border: 1px solid black;
+           border-collapse: collapse;
+           background-color: #f0ea80;
+           width: 100%;
+           margin-bottom: 20px;
+          }
+
+    th, td {
+            padding: 8px;
+            text-align: left;
+           }
+
+    th {
+         background-color: #c4aa36;
+         color: #fff;
+       }
+
+    tr:nth-child(even) {
+                        background-color: #ffff98;
+                       }
+
+    tr:hover {
+              background-color: #ccc;
+             }
+    footer {
+            text-align: center
+              
+           }
+
+  </style>
+  </head>
+<table border="1">
+  <tr>
+    <th>Produto</th>
+    <th>Descrição</th>
+    <th>Preço</th>
+  </tr>
+  <tr>
+    <td>Boné</td>
+    <td> Boné New Era MLB Yankees NS Marron</td>
+    <td>R$159,90</td>
+  </tr>
+  <tr>
+    <td>Calça</td>
+    <td>Calça Jeans Calvin Klein Skinny 5 Pockets Masculina</td>
+    <td>R$236,54</td>
+  </tr>
+  <tr>
+    <td>Tênis</td>
+    <td>Tênis Olimpikus Corre Trilha Unissex</td>
+    <td>R$399,99</td>
+  </tr>
+  <tr>
+    <td>Camiseta</td>
+    <td>Camiseta Tommy Hilfiger Essential Masculina</td>
+    <td>R$134,39</td>
+  </tr>
+  <tr>
+    <td>Mochila</td>
+    <td>Mochila Adidas Classic Unissex</td>
+    <td>R$129,99</td>
+  </tr>
+  <tr>
+    <td>Relogio</td>
+    <td>Relogio Inteligente Ultra 9 Smartwatch</td>
+    <td>161,00</td>
+  </tr>
+  
+</table>
+<footer>
+    <p>Desenvolvido por Hudson Mata</p>
+  </footer>
