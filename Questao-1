@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <style type="text/css">
+    
+      body {
+            padding: 25px;
+            background-color: #c4aa36; 
+            
+           }
+      h1 {
+          -webkit-text-stroke-width: 1px;
+          -webkit-text-stroke-color: black;
+          color: #e2d567;
+          font-family: verdana;
+          font-size: 225%;
+          font-weight: bold
+          display: block; 
+          margin-left: auto;
+          margin-right: auto;
+         text-align: center
+
+        }
+      h2 {
+          color: black;
+          font-family: consolas; 
+          font-size: 125%;
+          text-align: center
+  
+         }
+      p1 {
+          background-color: #f0ea80;
+          color: black;
+          font-family: courier;
+          font-size: 75%;
+ 
+  
+         }  
+      p2 {
+          color: black;
+          font-family: courier;
+          font-size: 100%;
+          text-align: center
+  
+
+  
+        }
+      img {
+           height: 300px;
+           border-radius: 30%;
+           border: 5px solid #f0ea80;
+           width: 200px;
+           height: 200px;
+           width: 50%;
+           display: block; 
+           margin-left: auto;
+           margin-right: auto; 
+  
+          }
+      footer {
+              text-align: center
+              
+             }
+          
+    </style>
+
+  </head>
+  <body>
+    <img src="https://assets.onecompiler.app/42vb76t3t/42x658z76/Imagem%20do%20WhatsApp%20de%202024-11-04%20%C3%A0(s)%2017.01.53_10618749.jpg" alt="foto" width="500" height="400">
+    <h1> HUDSON MATA NEVES </h1>
+    <h2> Ciencias da computacao </h2>
+    <p1> Meu nome e Hudson Mata Neves,sou apaixonado por tecnologia e estou fazendo esta graduacao pois desejo muito trabalhar na area da computacao que era meu sonho de crianca. ainda estou decidindo em qual area quero seguir.</p>
+    <p2>Matricula:2024 0285 2175</p2> 
+  </body>
+  <footer>
+    <p>Desenvolvido por Hudson Mata</p
+  </footer>
+  </html>
